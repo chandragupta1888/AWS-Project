@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matedata Extrator</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<style>
+		<?php include "style.css"?>
+	</style>
+    <div class="body">
+    	<!-- <div class="nav-bar">
+    		<input type="submit" value="Sign-Out" class="signup" name="signup" onclick="Javascript:window.location.href='index.php'">
+    	</div> -->
+    	<div class="main">
+    		<div id="section1">
+    			<h1 >Meta-Data Extractor</h1>
+    			<h3>An automated way for ML</h3>
+    			<a href="#section2" target="_parent"><button id='explore'>Explore</button></a>
+    			<button id='online' onclick="Javascript:window.location.href='online.php'>Try Online</button>
+    			<input type="submit" value="Sign-out" class="signup" name="signup" onclick="Javascript:window.location.href='index.php'">
+    		</div>
+    		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+			<script type="text/javascript">
+			VANTA.NET({
+				el: "body",
+				mouseControls: true,
+				touchControls: true,
+			    gyroControls: false,
+				minHeight: 200.00,
+				minWidth: 200.00,
+				scale: 1.00,
+				scaleMobile: 1.00,
+				color: 0x0006b5,
+				color2: 0x0385d3,
+				backgroundColor: 0x000000
+			})
+			</script>
+			<div id="section2">
+				<div class="container">
+					<div class="card">
+						<div class="content">
+							<h2>About</h2>
+							<p>We handle the complexities of data refinement. Join us in making machine learning easier, more approachable, and more impactful.</p>
+							<a href="#">Read More</a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="content">
+							<h2>MDE</h2>
+							<p>Allowing datamodels for repeated use without re-running the extraction process each time. Enables streamlined and consistent model predictions across multiple analyses. </p>
+							
+						</div>
+					</div>
+					<div class="card">
+						<div class="content">
+							<h2 style="text-align:center;"> Help</h2>
+							<p>Mail Us : mastersuow@gmail.com</p>
+							<p>Contact Us : 204386234</p>
+							<p>Registered Office : The Pa - G.04</p>
+						</div>
+					</div>
+				</div>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+				<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+				<script type="text/javascript">
+				VANTA.NET({
+					el: "#section2",
+				  mouseControls: true,
+				  touchControls: true,
+				  gyroControls: false,
+				  minHeight: 200.00,
+				  minWidth: 200.00,
+				  scale: 1.00,
+				  scaleMobile: 1.00,
+				  color: 0x0006b5,
+				  color2: 0x0385d3,
+				  backgroundColor: 0x000000
+				})
+				</script>
+				<script type="text/javascript" src="vanilla-tilt.js"></script>
+				<script>
+					VanillaTilt.init(document.querySelectorAll(".card"),{
+						max:25,
+						speed:400
+					})
+				</script>
+			</div>
+    	</div>
+    </div>
+</body>
+</html>
